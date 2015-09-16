@@ -8,8 +8,8 @@ import com.bumptech.glide.Glide;
  * Created by marcos on 16/09/15.
  */
 public class Controller {
-    ScreenManager mScreenManager;
-    MainActivity mContext;
+    private ScreenManager mScreenManager;
+    private MainActivity mContext;
 
     public Controller(MainActivity context ) {
         mContext = context;
